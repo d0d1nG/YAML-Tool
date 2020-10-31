@@ -1,0 +1,35 @@
+osoba:
+    id: 100
+    name: "Petar"
+    prezime: "Peric"
+    posao: "Programer"
+    zemlja: "Srbija"
+    vestine:
+        - c
+        - java
+        - python
+radnik:
+    id: 101
+    name: "Marko"
+    prezime: "Markovic"
+    posao: "Vodoinstalater"
+    vestine:
+        - cevi
+        - wc
+        - kupatilo
+vojnik:
+    id: 102
+    name: "Zivojin"
+    prezime: "Misic"
+    pozicija: "Vojvoda"
+    ozenjen: true
+    vestine:
+        - pucanje
+        - komanovanje
+        - planiranje
+    puska:
+        id: 67
+        name: "AK"
+        broj: 47
+        tip: "Automatik"
+        kalibar: 7.62
