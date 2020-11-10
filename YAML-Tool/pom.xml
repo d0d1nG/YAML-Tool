@@ -20,7 +20,7 @@
             <artifactId>saple</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>/home/igor/git/YAML-Tool/YAML-Tool/libs/api.jar</systemPath>
+            <systemPath>${project.basedir}/libs/api.jar</systemPath>
         </dependency>
 	</dependencies>
 </project>

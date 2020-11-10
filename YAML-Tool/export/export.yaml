@@ -1,0 +1,40 @@
+!!models.Entity
+entities:
+  prijatelj:
+    entities: {}
+    id: '17'
+    name: Dzoni
+    properties: {}
+id: '1434'
+name: Petar
+properties:
+  znanje: {c: 16, java: true, python: false}
+  predznanje: {kodiranje: 1, engleski: true, francuski: false}
+---
+!!models.Entity
+entities:
+  prijatelj:
+    entities: {}
+    id: '25'
+    name: Aleksa
+    properties:
+      info: {fakultet: ETF, godina: 3, znanje: 8}
+id: '91'
+name: Igor
+properties:
+  znanje: {c: 7, java: true, python: true, javascript: lose}
+  predznanje: {kodiranje: 100, francuski: onako, engleski: razbijam}
+---
+!!models.Entity
+entities:
+  sinovac:
+    entities: {}
+    id: '16'
+    name: Stewie
+    properties: {}
+id: '123'
+name: Peter
+properties:
+  podaci: {prezime: Griffin, emisija: Family Guy, ljubimac: Brian}
+  porodica: {zena: Lois, sin: Chris, cerka: Meg}
+---
