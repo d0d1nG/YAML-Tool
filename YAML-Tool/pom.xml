@@ -5,7 +5,7 @@
 	<groupId>SC</groupId>
 	<artifactId>YAML-Tool</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>YAML-Tool</name>
+	<name>yaml</name>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
