@@ -13,6 +13,11 @@ entities:
     prijatelj:
             id: 17
             name: "Dzoni"
+            properties:
+                znanje:
+                    c: 10
+                    java: 7
+                    python: true
 ---
 id: 91
 name: "Igor"

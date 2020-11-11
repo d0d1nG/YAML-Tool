@@ -1,11 +1,5 @@
-entities:
-  prijatelj:
-    entities: {}
-    id: '17'
-    name: Dzoni
-    properties: {}
-id: '1434'
 name: Petar
+id: '1434'
 properties:
   znanje:
     c: 16
@@ -15,19 +9,19 @@ properties:
     kodiranje: 1
     engleski: true
     francuski: false
----
 entities:
   prijatelj:
-    entities: {}
-    id: '25'
-    name: Aleksa
+    name: Dzoni
+    id: '17'
     properties:
-      info:
-        fakultet: ETF
-        godina: 3
-        znanje: 8
-id: '91'
+      znanje:
+        c: 10
+        java: 7
+        python: true
+    entities: {}
+---
 name: Igor
+id: '91'
 properties:
   znanje:
     c: 7
@@ -38,15 +32,19 @@ properties:
     kodiranje: 100
     francuski: onako
     engleski: razbijam
----
 entities:
-  sinovac:
+  prijatelj:
+    name: Aleksa
+    id: '25'
+    properties:
+      info:
+        fakultet: ETF
+        godina: 3
+        znanje: 8
     entities: {}
-    id: '16'
-    name: Stewie
-    properties: {}
-id: '123'
+---
 name: Peter
+id: '123'
 properties:
   podaci:
     prezime: Griffin
@@ -56,4 +54,10 @@ properties:
     zena: Lois
     sin: Chris
     cerka: Meg
+entities:
+  sinovac:
+    name: Stewie
+    id: '16'
+    properties: {}
+    entities: {}
 ---

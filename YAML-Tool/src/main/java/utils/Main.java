@@ -10,5 +10,4 @@ public class Main {
 		yaml.openDir("podaci");
 		yaml.save(yaml.entities, "export.yaml");
 	}
-
 }
